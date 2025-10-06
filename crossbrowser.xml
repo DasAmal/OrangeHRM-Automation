@@ -1,0 +1,18 @@
+<suite name="CrossBrowserSuite">
+<listeners>
+    <listener class-name="utilities.extent_reports_manager"/>
+</listeners>
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test_cases.LoginTests"/>
+        </classes>
+    </test>>
+
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="test_cases.LoginTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+test_cases\login_tests.class
+test_base\base_class.class
+page_objects\GeneralPage.class
+page_objects\Recruitment.class
+utilities\extent_reports_manager.class
+page_objects\LeavePage.class
+page_objects\login_page.class
+page_objects\DashboardPage.class
+page_objects\PIMPage.class

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM_Login_Test_Suites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression_Tests(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test_cases.TC_002_LoginWithInvalidDetails">
+        <methods>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- test_cases.TC_002_LoginWithInvalidDetails -->
+    </classes>
+  </test> <!-- Regression_Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHRM_Login_Test_Suites] -->
